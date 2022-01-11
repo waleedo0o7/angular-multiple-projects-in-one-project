@@ -1,0 +1,31 @@
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+  <span class="navbar-brand"> Logo </span>
+  <button class="navbar-toggler" type="button" aria-controls="navbarContent" [attr.aria-expanded]="!collapsed" aria-label="Toggle navigation" (click)="collapsed = !collapsed">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="navbar-collapse" [class.collapse]="collapsed" id="navbarContent">
+    <ul class="navbar-nav ml-auto">
+
+      <li class="nav-item">
+        <a class="nav-link" routerLink="home-page">Homepage</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" routerLink="about">About us</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" routerLink="contact">Contact us</a>
+      </li>
+
+    </ul>
+  </div>
+</nav>
+
+ 
+
+
+<h1 class="text-center"> Website </h1>
+
+<router-outlet></router-outlet>

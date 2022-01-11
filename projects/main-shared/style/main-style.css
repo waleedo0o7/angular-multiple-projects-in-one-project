@@ -1,0 +1,11 @@
+.card{
+    text-transform: capitalize;
+}
+
+pre {
+    background: #333;
+    margin: 10px;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px;
+}
